@@ -1,19 +1,18 @@
 ﻿using BitirmeProjesiWeb.CustomAttributes;
 using Microsoft.AspNetCore.Http;
-using System;
-using System.Collections.Generic;
 using System.ComponentModel;
-using System.Linq;
-using System.Threading.Tasks;
 
-namespace BitirmeProjesiWeb.ViewModels.Certificates
+namespace BitirmeProjesiWeb.ViewModels.Partners
 {
     public class CreateViewModel
     {
-        
-        [DisplayName("اسم الشهادة")]
+        [CustomRequired]
+        [DisplayName("اسم الشركة")]
         public string Name { get; set; }
-        [DisplayName("صورة الشهادة")]
-        public IFormFile Photo { get; set; }
+        [CustomRequired]
+        [DisplayName("عنوان الموقع الالكتروني")]
+        public string WebsiteLink { get; set; }
+        [DisplayName("صورة الشعار")]
+        public IFormFile Logo { get; set; }
     }
 }
