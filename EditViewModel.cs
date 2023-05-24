@@ -1,4 +1,4 @@
-﻿namespace BitirmeProjesiWeb.ViewModels.Categories
+﻿namespace BitirmeProjesiWeb.ViewModels.Certificates
 {
     public class EditViewModel : CreateViewModel
     {
