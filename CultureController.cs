@@ -17,6 +17,6 @@ namespace BitirmeProjesiWeb.Controllers
             );
 
             return LocalRedirect(returnUrl);
-        }
+        } 
     }
 }
