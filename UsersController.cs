@@ -9,6 +9,7 @@ using Microsoft.AspNetCore.Http;
 using BitirmeProjesiWeb.ViewModels;
 using Microsoft.AspNetCore.Authentication;
 
+
 namespace BitirmeProjesiWeb.Controllers
 {
     public class UsersController : Controller
