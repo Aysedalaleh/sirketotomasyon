@@ -7,6 +7,7 @@ using BitirmeProjesiWeb.Models;
 using BitirmeProjesiWeb.Utilities;
 
 namespace BitirmeProjesiWeb.Controllers
+
 {
     public class SubCategoriesController : Controller
     {
