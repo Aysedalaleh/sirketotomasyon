@@ -7,6 +7,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace BitirmeProjesiWeb.Controllers
 {
+
     public class MailsController : Controller
     {
         private readonly BitirmeContext context;
