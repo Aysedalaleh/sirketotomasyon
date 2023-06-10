@@ -6,6 +6,7 @@ namespace BitirmeProjesiWeb.CustomAttributes
     {
         public PasswordMinLengthValidatorAttribute() : base(8)
         {
+        
             ErrorMessage = "en az 8 haneli şifre olmalı";
         }
     }
