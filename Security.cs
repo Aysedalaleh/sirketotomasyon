@@ -4,6 +4,7 @@ using Microsoft.AspNetCore.Authentication;
 namespace BitirmeProjesiWeb.Utilities
 {
     public class Security : ISecurity
+    
     {
         private readonly IHttpContextAccessor _httpContextAccessor;
 
