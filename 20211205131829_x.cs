@@ -3,6 +3,7 @@
 namespace BitirmeProjesiWeb.Migrations
 {
     public partial class x : Migration
+    
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
