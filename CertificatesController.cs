@@ -9,6 +9,7 @@ using System.IO;
 using Microsoft.AspNetCore.Hosting;
 using BitirmeProjesiWeb.Utilities;
 
+
 namespace BitirmeProjesiWeb.Controllers
 {
     public class CertificatesController : Controller
