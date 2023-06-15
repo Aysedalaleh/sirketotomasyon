@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 namespace BitirmeProjesiWeb.ViewModels.Home
 {
     public class BaseViewModel
+        
     {
         public List<Category> Categories { get; set; }
         public List<Product> Products { get; set; }
