@@ -5,5 +5,6 @@ namespace BitirmeProjesiWeb.Utilities
     interface IMailing
     {
         Task<bool> Send();
+        
     }
 }
