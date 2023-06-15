@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Http;
 using System.ComponentModel;
 
+
 namespace BitirmeProjesiWeb.ViewModels.Partners
 {
     public class CreateViewModel
